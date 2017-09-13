@@ -1,0 +1,15 @@
+
+Pokusao sam da uradim aplikaciju MVC principom, design pattern-om.
+
+Ovo su neke od stvari koje bih uradio u daljem razvoju aplikacije:
+
+Resiti problem sa dupliranjem view-a, redirekcijom i routing.
+Implementovanje csrf tokena u forme i provera u konstruktorima klasa.
+Implementovanje salt-a u lozinku.
+Onemogucavanja pisanja pisanja js event-ova u html tagovima (mogu da se pokrecu samo js faljovi sa servera) zbog sigurnosti.
+Proceduralni deo koda da se napise u OOP-u.
+Kreiranje globalnog modala koji bi ukoliko dobije resposne, ispisivao greske.
+Dodatna validacija pre post-a, preko js-a.
+Komentarisanje koda.
+Search bih uradio preko ajax poziva i php response-a da se stranica ne bi osvezavala nego da se menja samo content.
+Od dodatnih opcija bih ubacio brisanje, azuriranje i "last_login".

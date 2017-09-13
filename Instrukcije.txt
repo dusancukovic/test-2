@@ -1,0 +1,9 @@
+Na serveru:
+Kopirati folder "apptest" na serveski public_html root folder.
+Kopirati i pokrenuti query u MySql bazi iz "db_create_table.txt" fajla.
+Dodavanjem "/apptest" na root url se pokrece aplikacija.
+
+Lokalno:
+Ukoliko je lokalni server npr apache (program Xamp), kopirati "apptest" folder u xamp/htdocs.
+Kopirati i pokrenuti query u MySql bazi iz "db_create_table.txt" fajla.
+Pokretanje aplikacije je isto kao i na serveru, u ovom slucaju http://localhost/apptest .

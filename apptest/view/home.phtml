@@ -1,0 +1,19 @@
+<?php include 'view/header.phtml'; ?>
+
+<div class="container">
+  <div class="row main">
+    <div class="panel-heading">
+      <div class="panel-title text-center">
+        <h1 class="title">Welcome, <?php echo $_SESSION['name']; ?></h1>
+        <hr />
+      </div>
+    </div>
+    <div class="main-login main-center">
+      <div class="form-group ">
+        <a href="/apptest/user/logout"><button type="button" class="btn btn-primary btn-lg btn-block login-button">Logout</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<?php include 'view/footer.phtml'; ?>
